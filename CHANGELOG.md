@@ -42,6 +42,11 @@ All notable changes to AI_NueroCodingAgent are documented here.
 - `profiles/dev-agent/` — Agent persona, soul, and model routing config
 - `skills/dev-agent-core/` — Core development workflow skill
 
+## Contributor Identity
+- **GitHub ID**: trigoldsun
+- **Application & Version**: hermes-v1.0.0
+- **Content Author (Model ID)**: qwen3-max
+
 ### Security Fixes (Architecture Review by qwen3-max)
 - H1: Git command injection prevented — subprocess list-form args
 - H2: HALF_OPEN race condition eliminated

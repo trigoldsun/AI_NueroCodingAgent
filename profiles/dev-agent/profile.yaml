@@ -1,0 +1,45 @@
+name: dev-agent
+description: AI-Native Software Development Agent — Enterprise-Grade Development Workflow
+version: 1.0.0
+author: Hermes01
+
+model:
+  provider: minimax-cn
+  default: MiniMax-M2.7
+  fallback: MiniMax-M1
+
+agent:
+  max_turns: 200
+  tool_use_enforcement: true
+
+delegation:
+  model: MiniMax-M2.7
+  provider: minimax-cn
+  max_iterations: 100
+
+compression:
+  enabled: true
+  threshold: 0.55
+  target_ratio: 0.18
+
+security:
+  tirith_enabled: false
+
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
+  provider: built-in
+
+toolsets:
+  - terminal
+  - file
+  - web
+  - browser
+  - vision
+  - skills
+  - memory
+  - session_search
+  - delegation
+  - cronjob
+  - clarify
+  - code_execution

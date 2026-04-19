@@ -2,7 +2,7 @@
 
 All notable changes to AI_NueroCodingAgent are documented here.
 
-## [1.0.0] - 2026-04-19
+## [0.1.0] - 2026-04-19
 
 ### Added
 

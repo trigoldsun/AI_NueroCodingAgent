@@ -1,7 +1,7 @@
 # Specification: User task (fill from analysis)
 
 **Generated**: 2026-04-19 09:08
-**Author**: Dev-Agent v1.0
+**Author**: Dev-Agent v0.1.0
 
 ---
 

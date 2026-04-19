@@ -23,7 +23,7 @@ log() {
 show_banner() {
     echo -e "
 ${BOLD}${CYAN}═══════════════════════════════════════════════════════════${RESET}
-   Dev-Agent v1.0 — AI-Native Development Workflow
+   Dev-Agent v0.1.0 — AI-Native Development Workflow
    Built on: Hermes Agent Framework
    Output by: Hermes01 (MiniMax-M2.7)
 ═══════════════════════════════════════════════════════════${RESET}

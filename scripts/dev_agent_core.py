@@ -127,7 +127,7 @@ def generate_spec(analysis, spec_path):
     spec_content = f"""# Specification: {desc}
 
 **Generated**: {datetime.now().strftime("%Y-%m-%d %H:%M")}
-**Author**: Dev-Agent v1.0
+**Author**: Dev-Agent v0.1.0
 
 ---
 

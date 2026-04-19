@@ -1,6 +1,6 @@
 name: dev-agent
 description: AI-Native Software Development Agent — Enterprise-Grade Development Workflow
-version: 1.0.0
+version: 0.1.0
 author: Hermes01
 
 model:

@@ -56,7 +56,7 @@ class TestDevAgentCore:
         """Launch script runs without error."""
         out, err, rc = run(f"bash {SCRIPT_DIR}/launch.sh 'Build a REST API for tasks' --root {AGENT_ROOT}", timeout=30)
         assert rc == 0, f"launch.sh failed: {err}"
-        assert "Dev-Agent v1.0" in out
+        assert "Dev-Agent v0.1.0" in out
         assert "PHASE-1" in out
         assert "PHASE-2" in out
         assert "SPEC.md" in out and ("written" in out or "created" in out)
